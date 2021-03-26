@@ -1,0 +1,12 @@
+[package]
+name = "pup2x"
+version = "0.1.0"
+authors = ["Daniel L. Lu <daniel@lawrence.lu>"]
+edition = "2018"
+
+[dependencies]
+infer = { git = "https://github.com/sportsball-ai/infer-rs", branch = "main", features = ["cuda", "onnx"] }
+image = "0.23"
+anyhow = "1.0"
+ndarray = "0.14"
+ndarray-image = "0.3.0"
